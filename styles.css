@@ -1,14 +1,14 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    background-color: #253372;
+    background-color: #243474;
     color: white;
     padding: 1em;
     text-align: center;
