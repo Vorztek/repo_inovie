@@ -2,8 +2,8 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const filiales = [
-        { name: 'Labosud', url: 'https://s117.hexalis.net:2000/', imageUrl: 'images/Labosud.png' },
-        { name: 'Biomédilab', url: 'https://3027122.hexalis.net:2000/', imageUrl: 'images/Biomedilab.png' },
+        { name: 'Labosud', url: 'https://s117.hexalis.net:2000/', imageUrl: 'images/Group 2.png' },
+        { name: 'Biomédilab', url: 'https://3027122.hexalis.net:2000/', imageUrl: 'images/Group 2.png' },
     ];
 
     const filialeList = document.getElementById('filialeList');
