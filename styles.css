@@ -13,12 +13,12 @@ header {
     padding: 20px 0;
 }
 #searchInput {
-    border-radius: 15px;  /* Ajustez la valeur selon vos besoins pour plus ou moins d'arrondi */
-    padding: 10px 20px;   /* Ajustez le rembourrage pour plus de confort et d'apparence */
-    border: 1px solid #ccc;  /* Ajoutez une bordure légère si nécessaire */
-    outline: none;        /* Supprimez le contour par défaut */
-    width: 25%;          /* Assurez-vous que l'élément prend toute la largeur de son conteneur */
-    box-sizing: border-box; /* Incluez le rembourrage et la bordure dans la largeur totale */
+    border-radius: 15px;  
+    padding: 10px 20px;   
+    border: 1px solid #ccc;  
+    outline: none;        
+    width: 25%;
+    box-sizing: border-box; 
 }
 
 main {
@@ -28,46 +28,46 @@ main {
 ul#filialeList {
     list-style: none;
     padding: 0;
-    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
-    justify-content: center; /* Centrage horizontal des éléments */
+    display: flex; 
+    justify-content: center; 
 }
 
 ul#filialeList li {
     margin: 10px;
     border: 1px solid #ccc;
-    border-radius: 10px; /* Coins arrondis des blocs */
+    border-radius: 10px; 
     padding: 10px;
-    background-color: #fff; /* Couleur de fond des blocs */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre pour l'effet visuel */
-    width: 200px; /* Largeur fixe des blocs */
-    text-align: center; /* Centrer le texte dans les blocs */
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 200px; 
+    text-align: center; 
 }
 
 ul#filialeList li:hover {
-    background-color: #e0e0e0; /* Couleur de fond assombrie au survol */
+    background-color: #e0e0e0; 
 }
 
 ul#filialeList li a {
     text-decoration: none;
     color: #333;
     display: flex;
-    flex-direction: column; /* Alignement vertical des enfants */
-    align-items: center; /* Centrage horizontal des enfants */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 ul#filialeList li a img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    object-fit: cover; /* S'assure que l'image garde sa proportion à l'intérieur du conteneur */
+    object-fit: cover; 
     margin-bottom: 10px;
 }
 
 ul#filialeList li a span {
-    font-size: 1.5em;   /* Augmente la taille de la police */
-    font-weight: medium;  /* Ajoute du gras pour mettre en avant */
-    color: #333;        /* Assure une couleur de texte appropriée */
-    display: block;     /* Pour s'assurer que le texte occupe une ligne entière */
-    text-align: center; /* Centre le texte dans le bloc */
-    margin-top: 10px;   /* Ajoute un espacement au-dessus du texte pour le séparer de l'image */
+    font-size: 1.5em;   
+    font-weight: medium;  
+    color: #333;        
+    display: block;     
+    text-align: center; 
+    margin-top: 10px;   
 }
