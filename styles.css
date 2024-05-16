@@ -43,6 +43,10 @@ ul#filialeList li {
     text-align: center; /* Centrer le texte dans les blocs */
 }
 
+ul#filialeList li:hover {
+    background-color: #e0e0e0; /* Couleur de fond assombrie au survol */
+}
+
 ul#filialeList li a {
     text-decoration: none;
     color: #333;
